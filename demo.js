@@ -1,4 +1,4 @@
-const checkInterface = require('./check-interface')
+const checkInterface = require('./')
 
 class MyInterface {
   constructor() {

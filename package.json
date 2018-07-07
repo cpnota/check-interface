@@ -1,0 +1,14 @@
+{
+  "name": "check-interface",
+  "version": "1.0.0",
+  "description": "Checks that an object implements all methods on a given interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "author": "cpnota@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.3.0"
+  }
+}

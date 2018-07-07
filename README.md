@@ -21,7 +21,7 @@ class MyInterface {
   MethodA() {}
 
   /**
-   * Documentation for MethodA
+   * Documentation for MethodB
    */
   MethodB() {}
 }

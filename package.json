@@ -1,6 +1,6 @@
 {
   "name": "check-interface",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks that an object implements all methods on a given interface.",
   "main": "index.js",
   "scripts": {

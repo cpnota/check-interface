@@ -10,5 +10,14 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^23.3.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpnota/check-interface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cpnota/check-interface/issues"
+  },
+  "homepage": "https://github.com/cpnota/check-interface#readme"
 }

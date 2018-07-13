@@ -42,3 +42,8 @@ methods.forEach(method => {
     expect(() => new Impl()).toThrow(method)
   })
 })
+
+test('Throws an error if object is undefined', () => {
+  class Impl extends Interface {}
+  expect(() => checkInterface(undefined, Impl)).toThrow('undefined')
+})

@@ -64,6 +64,15 @@ try {
 }
 
 /* can also use for type-checks externally */
-checkInterface(myImpl, MyInterface)
+const myImpl2 = checkInterface(myImpl, MyInterface)
+/* checkInterface returns the object passed in */
+assert(myImpl2 === myImpl)
 console.log('worked!')
+
+/* this is useful for initializing variables in constructors */
+class OtherClass {
+  constructor(object) {
+    this.object = checkInterface(object, MyInterface)
+  }
+}
 ```

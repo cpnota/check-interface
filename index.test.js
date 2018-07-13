@@ -20,6 +20,13 @@ test('Allows proper instansiation of subclass', () => {
   expect(() => new Impl()).not.toThrow()
 })
 
+test('Returns the object on successful check', () => {
+  class Impl extends Interface {}
+  methods.forEach(method => (Impl.prototype[method] = () => {}))
+  const impl = new Impl()
+  expect(checkInterface(impl, Interface)).toEqual(impl)
+})
+
 test(`Throws an error if user attempts to instansiate ${
   Interface.name
 } directly`, () => {

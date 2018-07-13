@@ -4,4 +4,5 @@ module.exports = (object, _interface) => {
       throw new Error(`Method ${method} must be implemented`)
     }
   })
+  return object
 }
